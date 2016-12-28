@@ -1,6 +1,28 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background: linear-gradient(270deg, #c4d8ec, #ebf3fb, #fff5b2, #fff294);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 2s ease infinite;
+-moz-animation: AnimationName 2s ease infinite;
+animation: AnimationName 2s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -47,25 +69,4 @@ ul.posts li {
     list-style: none;
 }
 
-background: linear-gradient(270deg, #c4d8ec, #ebf3fb, #fff5b2, #fff294);
-background-size: 800% 800%;
 
--webkit-animation: AnimationName 2s ease infinite;
--moz-animation: AnimationName 2s ease infinite;
-animation: AnimationName 2s ease infinite;
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
