@@ -19,7 +19,13 @@ title: ♡ KEITY25 ♡
     player = new YT.Player('ytplayer', {
       height: '480',
       width: '720',
-      videoId: 'd6NTr20feKE'     
+      videoId: 'd6NTr20feKE'   
+        playerVars: { 'autoplay': 1, 'controls': 0,'modestbranding': 1,'autohide':1,'wmode':'opaque' },
+        events: {
+            'onStateChange': function(e) {
+                if (e.data == 0) {
+                    //skrolla här
+                }
     });
   }
 </script>
