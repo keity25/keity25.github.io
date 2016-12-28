@@ -7,6 +7,7 @@ background-size: 800% 800%;
 -webkit-animation: AnimationName 2s ease infinite;
 -moz-animation: AnimationName 2s ease infinite;
 animation: AnimationName 2s ease infinite;
+}
 
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
